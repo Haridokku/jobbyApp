@@ -1,0 +1,37 @@
+.failureContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.retryButton {
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+}
+.profileContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 10px;
+  width: 30vw;
+}
+@media screen and (min-width: 768px) {
+  .profileContainer {
+    width: 90%;
+  }
+}
+.img {
+  width: 30px;
+  height: 30px;
+}
+.heading {
+  color: blue;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.describe {
+  color: #272727;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
