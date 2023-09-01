@@ -341,7 +341,7 @@ class Jobs extends Component {
             {this.onGetCheckBoxesView()}
             <hr className="horizontal-line" />
             <h1 className="text">Salary Range</h1>
-            {this.onGetRadioButtonsView()}
+            {this.onGetRadioButtonView()}
           </div>
           <div className="jobs-container">
             <div>
