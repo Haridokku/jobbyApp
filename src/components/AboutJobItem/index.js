@@ -26,8 +26,8 @@ class AboutJobItem extends Component {
     this.getJobData()
   }
 
-  getJobData = async props => {
-    const {match} = props
+  getJobData = async () => {
+    const {match} = this.props
     const {params} = match
     const {id} = params
     this.setState({apiStatus: apiStatusConstants.inProgress})
